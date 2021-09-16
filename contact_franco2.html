@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>Contact</title>
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+
+body {
+    background-image: url("./hammock-contact.jpg"); background-repeat: no-repeat no-repeat;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+        }      
+    .container .content {
+      text-align: center;
+      position:absolute
+      bottom: auto;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.3);
+      color: #f1f1f1;
+      width: auto;
+      padding: 15px;
+    }      
+    .address {
+      text-align: center; 
+      position:absolute
+      bottom: auto;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.3);
+      color: #f1f1f1;
+      width: auto;
+      padding: 15px;
+    }     
+    .email {
+      text-align: center;
+      position:absolute
+      bottom: auto;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.3);
+      color: #f1f1f1;
+      width: auto;
+      padding: 15px;
+    }    
+    .phone {
+      text-align: center;
+      position:absolute
+      bottom: auto;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.3);
+      color: #f1f1f1;
+      width: auto;
+      padding: 15px;
+    }
+    .map {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .newsletter {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        text-align: center;
+     }
+  {
+    box-sizing: border-box;
+    }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+    input[type=submit] {
+    background-color: navy;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+    input[type=submit]:hover {
+    background-color: lightblue;
+  }
+    .contact form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+</style>
+</head>
+    <div class="container content">
+    <div class="content">
+    <h2>Contact</h2>
+    <p>Get in touch with us! Use the contact form and we get back to you within 24 hours.</p>
+    </div>
+
+        <div class="address">
+        <h4>Location:</h4>
+        <p>Leutschenbachstrasse 54, 8050 Zürich</p>
+        </div>
+            
+        <div class="email">
+        <i class="bi bi-envelope"></i>
+        <h4>Email:</h4>
+        <a href="mailto:info@hammock.travel">info@hammock.travel</a>
+        </div>
+            
+        <div class="phone">
+        <i class="bi bi-phone"></i>
+        <h4>Call:</h4>
+        <a href="tel:+41435554433">+41 43 555 44 33</a>
+        </div>
+    </div>
+</div>
+
+<div class="container map" >
+    <div class="row">
+    
+<iframe src="https://www.google.com/maps/embed?pb=1m18!1m12!1m3!1d2699.7768309
+038756!2d8.553854315623896!3d47.416293979172394!2m3!1f0!2f0!3f0!3m2!1i1024!2i
+768!4f13.1!3m3!1m2!1s0x479aa077dce99eaf%3A0x8183fa3c6472437a!2sLeutschenbachst
+rasse%2054%2C%208050%20Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1619091632738!5m2!1sde!
+2sch" frameborder="0" style="border:0; width: 1000px; height: 350px;" allowfullscreen></iframe>
+</div>
+
+<section>
+    <h3>Contact Form</h3>
+    <div class="contact form">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+         <label for="lname">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Your subject..">
+         
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+</section>
+
+<section class="container newsletter">
+    <div class="newsletter">
+            <h3>Join our Newsletter</h3>
+        <div class="input-group">
+             <input type="email" class="form-control" placeholder="Enter your email">
+             <span class="input-group-btn">
+             <button class="btn btn-theme" type="submit">Subscribe</button>
+        </div>
+    </div> 
+</section>
+
+</body>
+</html>
